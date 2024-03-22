@@ -11,13 +11,13 @@ const Cards = () => {
           <img className="mb-2" src={Single} alt="/" />
           <div className="rounded-lg p-4 bg-main flex flex-col">
             <div>
-              <h4 className="text-black text-2xl font-bold leading-none ">
+              <h4 className="text-white text-2xl font-bold leading-none ">
                 test hemsida
               </h4>
-              <span className="text-xs text-gray-400 leading-none">span</span>
+              <span className="text-xs text-gray-200 leading-none">span</span>
             </div>
             <div className="flex items-center">
-              <div className="text-lg text-black font-light">234</div>
+              <div className="text-lg text-white font-light">234</div>
             </div>
           </div>
         </div>
