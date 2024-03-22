@@ -13,7 +13,6 @@ function App() {
       <Hero />
       <Mid />
       <Cards />
-      <Newsletter />
       <Footer />
     </div>
   );

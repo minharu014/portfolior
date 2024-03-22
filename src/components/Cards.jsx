@@ -6,7 +6,21 @@ import Triple from "../assets/triple.png";
 const Cards = () => {
   return (
     <div className="w-full py-[10rem] px-4 bg-white">
-      <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">
+      <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 gap-8">
+        <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300 border">
+          <img className="mb-2" src={Single} alt="/" />
+          <div className="rounded-lg p-4 bg-main flex flex-col">
+            <div>
+              <h4 className="text-black text-2xl font-bold leading-none ">
+                test hemsida
+              </h4>
+              <span className="text-xs text-gray-400 leading-none">span</span>
+            </div>
+            <div className="flex items-center">
+              <div className="text-lg text-black font-light">234</div>
+            </div>
+          </div>
+        </div>
         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
             className="w-20 mx-auto mt-[-3rem] bg-white"
@@ -20,24 +34,24 @@ const Cards = () => {
             <p className="py-2 border-b mx-8">30 rolls</p>
             <p className="py-2 border-b mx-8">2 månader</p>
           </div>
-          <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black">
+          <button className="bg-main w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black">
             Start
           </button>
         </div>
-        <div className="w-full shadow-xl bg-gray-50 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300">
+        <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
-            className="w-20 mx-auto mt-[-3rem] bg-transparent"
+            className="w-20 mx-auto mt-[-3rem] bg-white"
             src={Double}
             alt="/"
           />
           <h2 className="text-2xl font-bold text-center py-8">Single User</h2>
           <p className="text-center text-4xl font-bold">200 SEK</p>
           <div className="text-center font-medium">
-            <p className="py-2 border-b mx-8 mt-8">300 gratisspins</p>
-            <p className="py-2 border-b mx-8">110 rolls</p>
-            <p className="py-2 border-b mx-8">5 månader</p>
+            <p className="py-2 border-b mx-8 mt-8">100 gratisspins</p>
+            <p className="py-2 border-b mx-8">30 rolls</p>
+            <p className="py-2 border-b mx-8">2 månader</p>
           </div>
-          <button className="bg-black w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-[#00df9a]">
+          <button className="bg-main w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black">
             Start
           </button>
         </div>
@@ -54,7 +68,7 @@ const Cards = () => {
             <p className="py-2 border-b mx-8">330 rolls</p>
             <p className="py-2 border-b mx-8">12 månader</p>
           </div>
-          <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black">
+          <button className="bg-main w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black">
             Start
           </button>
         </div>
