@@ -1,11 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import Single from "../assets/single.png";
 import Double from "../assets/double.png";
 import Triple from "../assets/triple.png";
 
 const Cards = () => {
+  const [projects, setProjects] = useState([
+    {
+      image: "image_url_here",
+      altText: "description_of_image_here",
+      title: "title_here",
+      subtitle: "subtitle_here",
+    },
+  ]);
   return (
     <div className="w-full py-[10rem] px-4 bg-white">
+      {projects.map((project) => {
+        console.log(project);
+        return (
+          <Project
+            image={project.image}
+            altText={project.altText}
+            title={project.title}
+            subtitle={project.subtitle}
+          />
+        );
+      })}
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 gap-8">
         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300 border">
           <img className="mb-2" src={Single} alt="/" />
