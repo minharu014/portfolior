@@ -1,13 +1,31 @@
 {
   "project": [
     {
-      "image": "image_url_here",
+      "image": "../assets/single.png",
       "altText": "description_of_image_here",
       "title": "title_here",
       "subtitle": "subtitle_here"
     },
     {
-      "image": "image_url_here",
+      "image": "http://localhost:3000/static/media/macbook_blank.bf0e434ba863da107ecc.png",
+      "altText": "description_of_image_here",
+      "title": "title_here",
+      "subtitle": "subtitle_here"
+    },
+    {
+      "image": "http://localhost:3000/static/media/macbook_blank.bf0e434ba863da107ecc.png",
+      "altText": "description_of_image_here",
+      "title": "title_here",
+      "subtitle": "subtitle_here"
+    },
+    {
+      "image": "http://localhost:3000/static/media/macbook_blank.bf0e434ba863da107ecc.png",
+      "altText": "description_of_image_here",
+      "title": "title_here",
+      "subtitle": "subtitle_here"
+    },
+    {
+      "image": "http://localhost:3000/static/media/macbook_blank.bf0e434ba863da107ecc.png",
       "altText": "description_of_image_here",
       "title": "title_here",
       "subtitle": "subtitle_here"
