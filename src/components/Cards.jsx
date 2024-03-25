@@ -11,14 +11,15 @@ const Cards = () => {
 
   return (
     <div className="w-full py-[10rem] px-4 bg-white">
-      <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 gap-8">
+      <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-5">
         {projects.map((project, index) => (
           <Project
-            key={index} // It's better to use unique keys, e.g., project.id if available
+            key={index}
             image={project.image}
             altText={project.altText}
             title={project.title}
             subtitle={project.subtitle}
+            url={project.url}
           />
         ))}
       </div>

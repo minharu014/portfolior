@@ -1,34 +1,25 @@
 {
   "project": [
     {
-      "image": "../assets/single.png",
-      "altText": "description_of_image_here",
-      "title": "title_here",
-      "subtitle": "subtitle_here"
+      "image": "/assets/kar.png",
+      "altText": "dashboardbild",
+      "title": "Karolinska University Hospital",
+      "subtitle": "GSAP & CSS animations - Vanilla JS",
+      "url": "https://hpcdash.web.app/"
     },
     {
-      "image": "http://localhost:3000/static/media/macbook_blank.bf0e434ba863da107ecc.png",
-      "altText": "description_of_image_here",
-      "title": "title_here",
-      "subtitle": "subtitle_here"
+      "image": "/assets/res.png",
+      "altText": "restaurant web pic",
+      "title": "Uppsala University",
+      "subtitle": "First restaurant website - Vanilla HTML CSS JS",
+      "url": "https://dynprojektet.web.app/"
     },
     {
-      "image": "http://localhost:3000/static/media/macbook_blank.bf0e434ba863da107ecc.png",
-      "altText": "description_of_image_here",
-      "title": "title_here",
-      "subtitle": "subtitle_here"
-    },
-    {
-      "image": "http://localhost:3000/static/media/macbook_blank.bf0e434ba863da107ecc.png",
-      "altText": "description_of_image_here",
-      "title": "title_here",
-      "subtitle": "subtitle_here"
-    },
-    {
-      "image": "http://localhost:3000/static/media/macbook_blank.bf0e434ba863da107ecc.png",
-      "altText": "description_of_image_here",
-      "title": "title_here",
-      "subtitle": "subtitle_here"
+      "image": "asd",
+      "altText": "Work in progress",
+      "title": "LocalLink",
+      "subtitle": "Freelance Website For Startup - React + TailwindCSS",
+      "url": "#"
     }
   ]
 }

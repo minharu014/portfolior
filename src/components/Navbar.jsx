@@ -12,11 +12,15 @@ function Navbar() {
     <div className="flex justify-between  items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
       <h1 className="w-full text-3xl font-bold text-main">Haru Tran 하루</h1>
       <ul className="hidden md:flex">
-        <li className="p-4">Home</li>
-        <li className="p-4">Projects</li>
-        <li className="p-4">Linkedin</li>
-        <li className="p-4">GitHub</li>
-        <li className="p-4">Contact</li>
+        <li className="p-4">
+          <a href="#projects">Projects</a>
+        </li>
+        <li className="p-4">
+          <a href="#mid">Linkedin</a>
+        </li>
+        <li className="p-4">
+          <a href="#mid">GitHub</a>
+        </li>
       </ul>
       <div onClick={handleNav} className="block md:hidden">
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
@@ -30,9 +34,18 @@ function Navbar() {
       >
         <h1 className="w-full text-3xl font-bold text-main m-4">LOCALLINK</h1>
         <ul className="uppercase p-4">
-          <li className="p-4 border-b border-gray-600">Home</li>
-          <li className="p-4 border-b border-gray-600">About</li>
-          <li className="p-4">Contact</li>
+          <li className="p-4 border-b border-gray-600">
+            {" "}
+            <a href="#projects">Projects</a>
+          </li>{" "}
+          <li className="p-4 border-b border-gray-600">
+            {" "}
+            <a href="#mid">Linkedin</a>
+          </li>{" "}
+          <li className="p-4">
+            {" "}
+            <a href="#mid">GitHub</a>
+          </li>
         </ul>
       </div>
     </div>
