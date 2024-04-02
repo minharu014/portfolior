@@ -13,15 +13,6 @@ const Mid = () => {
             Connect with me!
           </h1>
           <a
-            href="https://github.com/minharu014"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-black text-main w-[200px] rounded-md font-medium my-2 mx-auto md:mx-0 py-3 relative flex items-center justify-center"
-          >
-            <FaGithub size={30} className="absolute left-4" />
-            <span>GitHub</span>
-          </a>
-          <a
             href="https://www.linkedin.com/in/harutran/"
             target="_blank"
             rel="noopener noreferrer"
@@ -29,6 +20,15 @@ const Mid = () => {
           >
             <FaLinkedinIn size={30} className="absolute left-4" />
             <span>LinkedIn</span>
+          </a>
+          <a
+            href="https://github.com/minharu014"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-black text-main w-[200px] rounded-md font-medium my-2 mx-auto md:mx-0 py-3 relative flex items-center justify-center"
+          >
+            <FaGithub size={30} className="absolute left-4" />
+            <span>GitHub</span>
           </a>
         </div>
       </div>
