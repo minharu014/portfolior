@@ -22,17 +22,23 @@ function Navbar() {
           <a href="#mid">GitHub</a>
         </li>
       </ul>
+      {/* Small Screen - Menu */}
       <div onClick={handleNav} className="block md:hidden">
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
       <div
         className={
           nav
-            ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500"
-            : "fixed left-[-100%] ease-in-out duration-500"
+            ? "absolute left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500"
+            : "fixed left-[-100%] top-0 ease-in-out duration-500"
         }
       >
-        <h1 className="w-full text-3xl font-bold text-main m-4">LOCALLINK</h1>
+        <div className="w-full text-3xl font-bold m-8 flex justify-evenly">
+          <h1 className="text-main">Haru Tran</h1>
+          <div onClick={handleNav}>
+            <AiOutlineClose size={20} />
+          </div>
+        </div>
         <ul className="uppercase p-4">
           <li className="p-4 border-b border-gray-600">
             {" "}
