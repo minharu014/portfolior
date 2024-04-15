@@ -20,6 +20,13 @@
       "title": "LocalLink",
       "subtitle": "Freelance Website For Startup - React + TailwindCSS",
       "url": "#"
+    },
+    {
+      "image": "asd",
+      "altText": "Deployment in progress",
+      "title": ".NET Project",
+      "subtitle": "ASP.NET MVC Fullstack project",
+      "url": "#"
     }
   ]
 }
