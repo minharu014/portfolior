@@ -1,6 +1,7 @@
 import React from "react";
 import { ReactTyped } from "react-typed";
 import Profile from "../assets/picture.png";
+import { FaAngleDoubleDown } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -31,9 +32,9 @@ const Hero = () => {
           Born and raised in Sweden, Eager to excel in software engineering and
           learn modern FE techniques!<br></br>I speak Swedish, English & Korean
         </p>
-        <button className="bg-main w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black">
-          Contact me!
-        </button>
+        <a href="#mid" className="my-6 mx-auto py-3">
+          <FaAngleDoubleDown className="fill-main stroke-white" />
+        </a>
       </div>
     </div>
   );

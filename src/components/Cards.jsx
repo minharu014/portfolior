@@ -1,12 +1,20 @@
 import React, { useState, useEffect } from "react";
 import Project from "./project";
-import projectData from "../assets/projects.json";
 
 const Cards = () => {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    setProjects(projectData.project);
+    fetch(
+      "https://raw.githubusercontent.com/minharu014/portfolior/master/src/assets/projects.json"
+    )
+      .then((response) => response.json())
+      .then((data) => {
+        setProjects(data.project);
+      })
+      .catch((error) => {
+        console.error("Error fetching data:", error);
+      });
   }, []);
 
   return (
