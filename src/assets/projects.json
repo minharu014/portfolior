@@ -15,11 +15,11 @@
       "url": "https://dynprojektet.web.app/"
     },
     {
-      "image": "asd",
-      "altText": "Work in progress",
+      "image": "/assets/ll.png",
+      "altText": "website pic",
       "title": "LocalLink",
-      "subtitle": "Freelance Website For Startup - React + TailwindCSS",
-      "url": "#"
+      "subtitle": "Freelance Website For Startup - React Vite + TailwindCSS",
+      "url": "https://locallinkse.web.app/"
     },
     {
       "image": "asd",
