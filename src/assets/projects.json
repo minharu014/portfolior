@@ -15,7 +15,7 @@
       "url": "https://dynprojektet.web.app/"
     },
     {
-      "image": "/assets/ll.png",
+      "image": "https://raw.githubusercontent.com/minharu014/portfolior/master/public/assets/ll.png",
       "altText": "website pic",
       "title": "LocalLink",
       "subtitle": "Freelance Website For Startup - React Vite + TailwindCSS",
