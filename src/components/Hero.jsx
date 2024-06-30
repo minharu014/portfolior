@@ -8,7 +8,9 @@ const Hero = () => {
     <div className="text-white">
       <div className="max-w-[800px] mt-[96xpx] w-full h-screen mx-auto text-center flex flex-col justify-center">
         <img className="h-60 bg-cover mx-auto mt-2" src={Profile} alt="/" />
-        <p className="text-main font-bold p-2">Welcome to my portfolio!</p>
+        <p className="text-main font-bold p-2">
+          Welcome to my portfolio! Built with React + TailwindCSS
+        </p>
         <h1 className="md:text-5xl sm:text-4xl text-3xl font-bold md:py-6 text-main">
           Haru Tran 하루
         </h1>
