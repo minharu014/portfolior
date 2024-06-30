@@ -1,13 +1,6 @@
 {
   "project": [
     {
-      "image": "/assets/kar.png",
-      "altText": "dashboardbild",
-      "title": "Karolinska University Hospital",
-      "subtitle": "GSAP & CSS animations - Vanilla JS",
-      "url": "https://hpcdash.web.app/"
-    },
-    {
       "image": "/assets/res.png",
       "altText": "restaurant web pic",
       "title": "Uppsala University",
@@ -20,6 +13,13 @@
       "title": "LocalLink",
       "subtitle": "Freelance Website For Startup - React Vite + TailwindCSS",
       "url": "https://locallinkse.web.app/"
+    },
+    {
+      "image": "/assets/kar.png",
+      "altText": "dashboardbild",
+      "title": "Karolinska University Hospital",
+      "subtitle": "GSAP & CSS animations - Vanilla JS",
+      "url": "https://hpcdash.web.app/"
     },
     {
       "image": "asd",
