@@ -1,18 +1,18 @@
 {
   "project": [
     {
-      "image": "/assets/res.png",
-      "altText": "restaurant web pic",
-      "title": "Uppsala University",
-      "subtitle": "First restaurant website - Vanilla HTML CSS JS",
-      "url": "https://dynprojektet.web.app/"
-    },
-    {
       "image": "https://raw.githubusercontent.com/minharu014/portfolior/master/public/assets/ll.png",
       "altText": "website pic",
       "title": "LocalLink",
       "subtitle": "Freelance Website For Startup - React Vite + TailwindCSS",
       "url": "https://locallinkse.web.app/"
+    },
+    {
+      "image": "/assets/res.png",
+      "altText": "restaurant web pic",
+      "title": "Uppsala University",
+      "subtitle": "First restaurant website - Vanilla HTML CSS JS",
+      "url": "https://dynprojektet.web.app/"
     },
     {
       "image": "/assets/kar.png",
